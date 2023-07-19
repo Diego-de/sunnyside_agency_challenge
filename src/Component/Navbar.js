@@ -12,7 +12,7 @@ function Navbar() {
 
   return (
     <div className="lg">
-      <nav className="items-center justify-between flex bg-teal-500 p-6 w-full fixed h-[64px]">
+      <nav className="items-center justify-between flex  p-6 w-full fixed h-[64px]">
         <div className="w-full flex items-center p-6">
           <div className="flex items-center flex-shrink-0 text-white mr-6 w-5/6">
             <a href="/" className="text-2xl ml-0 mr-32 font-bold text-stone-200 sm:mr-74">
@@ -50,11 +50,12 @@ function Navbar() {
 
         >
           <ul className="flex flex-col space-y-4 mt-4 mb-12 md:space-y-0 md:flex-row md:space-x-10" id="navbar-default">
+
             <li className="block mt-4 lg:inline-block lg:mt-0 text-teal-200 hover:text-white mr-4 ">
               <a href='#About' className="text-stone-200 ">About</a>
             </li>
             <li className="block mt-4 lg:inline-block lg:mt-0 text-teal-200 hover:text-white mr-4">
-              <a  href='#Services' className="text-stone-200">Services</a>
+              <a href='#Services' className="text-stone-200">Services</a>
             </li>
             <li className="block mt-4 lg:inline-block lg:mt-0 text-teal-200 hover:text-white mr-4">
               <a href='#Projects' className="text-stone-200">Projects</a>

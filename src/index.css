@@ -6,6 +6,11 @@ html{
     scroll-behavior: smooth;
 }
 
+#navbar-default{
+margin-top: 10%;
+background-color: transparent;
+}
+
 @media screen and (max-width: 768px) {
     #navbar-default{
         padding: 20px;
